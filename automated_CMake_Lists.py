@@ -15,7 +15,7 @@ WRITE_BACKUP = False
 def write_header_CMake(file_to_write):
     if WRITE_GIT:
         file_to_write.write("#This CMake was automatically generated\n")
-        file_to_write.write("#You can find this project on git : \n\n")
+        file_to_write.write("#You can find this project on git https://github.com/antoninklopp/Automatic_CMakeLists: \n\n")
     file_to_write.write("#Minimum version of CMake\n")
     file_to_write.write("cmake_minimum_required(VERSION 3.9) \n\n")
 

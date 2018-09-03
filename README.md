@@ -12,6 +12,9 @@ Your project folder should be organized like this :
 Launch the script. It should create a CMakeLists.txt in each folder.  
 Than, use CMake as usual.
 
+You can find a test project, that illustrates how to organize your folders
+for your program to work.
+
 # Adding information to CMakeLists
 
 If you are using other dependencies than the one in your project you ca put a
@@ -21,4 +24,4 @@ You should do this if you are using openCV or OpenGL for exemple.
 
 # Questions, improvements?
 
-Raise an issue or a pull requests if you have any problem. 
+Raise an issue or a pull requests if you have any problem.
